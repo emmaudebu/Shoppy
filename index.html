@@ -11,17 +11,88 @@
   <!-- CSS -->
   <link rel="stylesheet" href="./index.css" />
   <!-- CSS -->
-  <title>Shoppy</title>
+  <title>YourShoppy</title>
 </head>
 <header>
   <section class="top-nav">
     <span>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</span> <span>ShopNow</span>
   </section>
   <section class="mid-nav">
-      <h2>Shoppy</h2> <span><input type="text" name="Search" id="" placeholder="What are you looking for?"> <i
-          class='bx bx-search'></i></span>
+    <h2>YourShoppy</h2> <span class="nav-input"><input type="text" name="Search" id=""
+        placeholder="What are you looking for?"> <i class='bx bx-search'></i></span><select title="Language" name="Lang"
+      id="lang" class="language">
+
+      <option value="English">English</option>
+      <option value="French">French</option>
+      <option value="Igbo">Igbo</option>
+
+    </select>
   </section>
+  <section class="Last-nav">
+    <nav>
+      <h2 class="logo">Exclusive</h2>
+      <ul class="menu">
+      
+        <li>Home</li>
+        <li>Contact us</li>
+        <li>About us</li>
+        <li>Sign Up</li>
+      </ul>
+  <div class="icons">
+    <span class='bm'>Become Seller</span>
+    <i class='bx bx-heart'></i>
+    <span class="cart"><i class='bx bx-cart'></i></span>
+    <span><img src="./assets/images/user.svg" alt="" class="user"></span>
+  </div>
+
+    </nav>
+
+ 
+</section>
+ <swiper-container class="mySwiper" navigation="true" pagination="true" keyboard="true" mousewheel="true"
+   autoplay-delay="10000" autoplay-disable-on-interaction="true"
+   css-mode="true">
+   <swiper-slide class="two">
+    <section class="hero">
+     <div class="hero-text">
+    <div class="apple">
+      <img src="./assets/images/1200px-Apple_gray_logo 1.svg" alt="">
+      <span>iPhone 14 Series</span>
+    </div>
+     </div>
+     <div class="hero-img">
+      <img src="./assets/images/hero-iphone.png" alt="">
+     </div>
+    </section>
+   </swiper-slide>
+   <swiper-slide class="one">
+     <section class="hero">
+       <div class="hero-text">
+         text
+       </div>
+       <div class="hero-img">
+         <img src="./assets/images/iphone-12-banner-2.png" alt="">
+       </div>
+     </section>
+
+   </swiper-slide>
+   <swiper-slide class="three">
+     <section class="hero">
+       <div class="hero-text">
+         text
+       </div>
+       <div class="hero-img">
+         <img src="./assets/images/samsung-s9-verizon.webp" alt="">
+       </div>
+     </section>
+
+   </swiper-slide>
+ </swiper-container>
 </header>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 
 <body>
 </body>
