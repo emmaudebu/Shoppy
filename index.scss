@@ -4,21 +4,21 @@
 @import "./components/mediaqueries";
 @import "./components/typography";
 
-body{
+body {
   font-family: "Poppins", sans-serif;
   position: relative;
 }
 
 .top-nav {
   display: flex;
- 
+
   font-size: 14px;
   justify-content: center;
- color:$shoppy-white ;
- background-color:$shoppy-dark-btn ;
+  color: $shoppy-white;
+  background-color: $shoppy-dark-btn;
   height: 2rem;
   align-items: center;
-  
+
 
   :nth-child(2) {
     margin-left: 1.0rem;
@@ -36,24 +36,26 @@ body{
 .mid-nav {
   display: flex;
   justify-content: space-between;
-  
+
   align-items: center;
   @include main-padding;
-  
-   
-      border-bottom: 1px solid gray;
-      .language{
-        border: none;
-        padding: 5px;
-        outline: none;
-        font-size: 14px;
-        font-weight: 400;
 
-      }
-      h2{
-        font-family: Quella ;
 
-      }
+  border-bottom: 1px solid gray;
+
+  .language {
+    border: none;
+    padding: 5px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+
+  }
+
+  h2 {
+    font-family: Quella;
+
+  }
 
 
   .nav-input {
@@ -73,126 +75,186 @@ body{
       width: 100%;
       outline: none;
       padding: 10px 12px;
-     
-        
-      }
-      i{
-        width: 16px;
-        height: 16px;
-      }
+
+
     }
 
+    i {
+      width: 16px;
+      height: 16px;
+    }
   }
-  .Last-nav{
-    @include main-padding;
-    border-bottom: 1px solid gray ;
-    margin-bottom: 60px;
-    nav{
+
+}
+
+.Last-nav {
+  @include main-padding;
+  border-bottom: 1px solid gray;
+  margin-bottom: 60px;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .menu {
       display: flex;
-      justify-content:space-between;
+      justify-content: center;
       align-items: center;
+      gap: 40px;
 
-      .menu{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 40px;
-        // margin-right: 40px;
-        li{
-          cursor: pointer;
-       
-          &:hover{
-            text-decoration:underline;
-
-          }
-        }
-      }
-      .icons{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 32px;
-        .user{
-          width: 25px;
-          height: 25px;
-          cursor: pointer;
-
-        }
-        .bx{
-           width: 20px;
-           height: 20px;
-           cursor: pointer;
-        }
-       .bm{
+      // margin-right: 40px;
+      li {
         cursor: pointer;
-       }
+
+        &:hover {
+          text-decoration: underline;
+
+        }
       }
     }
 
-    
-  }
-    swiper-slide img {
-      width: 100%;
-    }
- swiper-slide {
-  
-   font-size: 18px;
-   background: #fff;
-   display: flex;
-   align-items: center;
- }
-  swiper-container {
-    @include main-padding;
-    width: 85%;
-    height: 460px;
-  }
-  .one{
-    background-repeat: no-repeat;
-    background-position: right;
-    background-color: black;
-     color: #F5F5F5;
-  }
-  .two{
+    .icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 32px;
 
-    background-repeat: no-repeat;
-    background-position: right;
-    background-color: black;
-    color: #F5F5F5;
-    
-  }
-  .hero{
+      .user {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-     gap: 40rem;
-  }
-  .three{
-    background-repeat: no-repeat;
-    background-position: right;
-    background-color:$shoppy-white;
-    color: $shoppy-dark-btn;
-    .hero-img{
-      width: 60%;
-      height:80%;
+      }
+
+      .bx {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+      }
+
+      .bm {
+        cursor: pointer;
+      }
     }
   }
-  .hero-text{
-    width: 300px;
-    .apple{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+
+}
+
+swiper-slide img {
+  width: 100%;
+}
+
+swiper-slide {
+
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  height: 478px
+}
+
+swiper-container {
+  @include main-padding;
+  width: 85%;
+  height: 460px;
+}
+
+.one {
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: black;
+  color: #F5F5F5;
+}
+
+.two {
+
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: black;
+  color: #F5F5F5;
+
+}
+
+.hero {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20rem;
+  padding-left: 90px;
+}
+
+.three {
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: $shoppy-white;
+  color: $shoppy-dark-btn;
+
+  .hero-img {
+    width: 60%;
+    height: 80%;
+  }
+}
+
+.hero-text {
+  width: 300px;
+
+  img {
+
+    width: 55px;
+    height: 68px;
+  }
+
+  .apple {
+
     width: 400px;
     gap: 15px;
-    span{
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    h1 {
+      font-family: Poppins;
+      font-size: 68px;
+      font-weight: 600;
+      line-height: 83px;
+
+
+    }
+
+    span {
       font-family: Poppins;
       font-size: 22px;
       font-weight: 400;
       width: 100%;
-      
+
+
+
 
     }
   }
-  }
-  
+}
+
+.btn-span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-btn {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+  border: none;
+  border-bottom: 1px solid gray;
+  color: white;
+  background: none;
+
+
+}

@@ -435,6 +435,7 @@ swiper-slide {
   background: #fff;
   display: flex;
   align-items: center;
+  height: 478px;
 }
 
 swiper-container {
@@ -459,9 +460,10 @@ swiper-container {
 
 .hero {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  gap: 40rem;
+  gap: 20rem;
+  padding-left: 90px;
 }
 
 .three {
@@ -478,16 +480,45 @@ swiper-container {
 .hero-text {
   width: 300px;
 }
+.hero-text img {
+  width: 55px;
+  height: 68px;
+}
 .hero-text .apple {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   width: 400px;
   gap: 15px;
+}
+.hero-text .apple div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.hero-text .apple h1 {
+  font-family: Poppins;
+  font-size: 68px;
+  font-weight: 600;
+  line-height: 83px;
 }
 .hero-text .apple span {
   font-family: Poppins;
   font-size: 22px;
   font-weight: 400;
   width: 100%;
+}
+
+.btn-span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-btn {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+  border: none;
+  border-bottom: 1px solid gray;
+  color: white;
+  background: none;
 }/*# sourceMappingURL=index.css.map */
