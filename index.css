@@ -665,17 +665,33 @@ swiper-container {
 
 .Best-selling {
   padding-inline: 100px;
+  margin-top: 180px;
 }
 .Best-selling .best-title {
+  width: 278px;
+  height: 338px;
+}
+.Best-selling .best-title h1 {
   font-family: Poppins;
   font-size: 32px;
   font-weight: 700;
   line-height: 48px;
-  width: 278px;
-  height: 338px;
 }
 .Best-selling .best-title p {
   font-family: Poppins;
   font-size: 18px;
-  color: gray;
+  font-weight: 500;
+  line-height: 27px;
+  color: rgba(30, 30, 30, 0.5019607843);
+}
+.Best-selling .best-title button {
+  width: 160px;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  background: #C1DCDC;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */

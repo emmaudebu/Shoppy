@@ -414,22 +414,38 @@ border-radius: 19px;
   }}}
   .Best-selling{
     @include main-padding;
+    margin-top: 180px;
 
     .best-title{
-      font-family: Poppins;
-      font-size: 32px;
-      font-weight: 700;
-      line-height: 48px;
       width: 278px;
       height: 338px;
+      h1{
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+      }
       p{
         font-family: Poppins;
         font-size: 18px;
-        color: gray;
-        
+        font-weight: 500;
+        line-height: 27px;
+         color: #1E1E1E80;
 
       }
-     
+      button{
+        width: 160px;
+        border: none;
+        border-radius: 8px;
+        padding: 12px 20px ;
+        background: #C1DCDC;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+
+
+      }
 
     }
   }
