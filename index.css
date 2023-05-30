@@ -521,4 +521,161 @@ swiper-container {
   border-bottom: 1px solid gray;
   color: white;
   background: none;
+}
+
+.partners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin: 10px;
+}
+.partners span {
+  width: 198px;
+  height: 112px;
+  background: #FDFFFE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0px 35px 47px rgba(212, 217, 232, 0.2);
+  border-radius: 19px;
+}
+
+.explore {
+  padding-inline: 100px;
+}
+.explore .explore-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.explore .explore-title span {
+  color: #02a0a0;
+}
+.explore .explore-details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.explore .explore-details .explore-fashion {
+  width: 450px;
+  height: 429px;
+  background: url(./assets/images/short-trousers.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 20px;
+}
+.explore .explore-details .explore-fashion p {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  color: white;
+}
+.explore .explore-details .explore-fashion p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+}
+.explore .explore-electronics {
+  width: 820px;
+  height: 427px;
+  background: url(./assets/images/table-gadgets.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 20px;
+}
+.explore .explore-electronics p {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  color: white;
+}
+.explore .explore-electronics p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+}
+
+.explore-shop {
+  padding-inline: 100px;
+}
+.explore-shop .explore-details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.explore-shop .explore-details .explore-shop {
+  width: 818px;
+  height: 427px;
+  background: url(./assets/images/shops.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 20px;
+}
+.explore-shop .explore-details .explore-shop p {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  color: white;
+}
+.explore-shop .explore-details .explore-shop p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+}
+.explore-shop .explore-details .explore-furniture {
+  width: 450px;
+  height: 425px;
+  background: url(./assets/images/ante-room.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 20px;
+}
+.explore-shop .explore-details .explore-furniture p {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  color: white;
+}
+.explore-shop .explore-details .explore-furniture p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+}
+
+.Best-selling {
+  padding-inline: 100px;
+}
+.Best-selling .best-title {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  width: 278px;
+  height: 338px;
+}
+.Best-selling .best-title p {
+  font-family: Poppins;
+  font-size: 18px;
+  color: gray;
 }/*# sourceMappingURL=index.css.map */
