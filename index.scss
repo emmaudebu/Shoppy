@@ -415,15 +415,18 @@ border-radius: 19px;
   .Best-selling{
     @include main-padding;
     margin-top: 180px;
+    position: relative;
 
     .best-title{
       width: 278px;
       height: 338px;
       h1{
-        font-family: Poppins;
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 48px;
+       font-family: Poppins;
+       font-size: 32px;
+       font-weight: 700;
+       line-height: 48px;
+       
+
       }
       p{
         font-family: Poppins;
@@ -449,3 +452,39 @@ border-radius: 19px;
 
     }
   }
+  .Best-selling{
+    display: flex;
+    justify-content: space-between;
+    .navbar{
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      gap: 900px;
+      top:150px;
+      left: 440px;
+      span{
+        height: 41px;
+        width: 48px;
+        border-radius: 3px;
+        background: #C1DCDC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+          cursor: pointer;
+          scale: 1.1;
+        }
+
+
+      }
+    }
+  }
+  .product-slide{
+    display: flex;
+    gap: 43px;
+    img{
+      height: 338px;
+      border-radius: 8px;
+    }
+  }
+ 

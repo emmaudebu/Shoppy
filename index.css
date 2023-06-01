@@ -666,6 +666,7 @@ swiper-container {
 .Best-selling {
   padding-inline: 100px;
   margin-top: 180px;
+  position: relative;
 }
 .Best-selling .best-title {
   width: 278px;
@@ -694,4 +695,39 @@ swiper-container {
   align-items: center;
   gap: 10px;
   cursor: pointer;
+}
+
+.Best-selling {
+  display: flex;
+  justify-content: space-between;
+}
+.Best-selling .navbar {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  gap: 900px;
+  top: 150px;
+  left: 440px;
+}
+.Best-selling .navbar span {
+  height: 41px;
+  width: 48px;
+  border-radius: 3px;
+  background: #C1DCDC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Best-selling .navbar span:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.product-slide {
+  display: flex;
+  gap: 43px;
+}
+.product-slide img {
+  height: 338px;
+  border-radius: 8px;
 }/*# sourceMappingURL=index.css.map */
