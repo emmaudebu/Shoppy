@@ -1033,4 +1033,15 @@ footer {
 
     }
   }
+  .copyright-footer{
+    @include main-padding;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .payment{
+      img{
+        margin-right: 10px;
+      }
+    }
+  }
 }

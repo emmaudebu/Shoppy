@@ -1136,4 +1136,13 @@ footer .mid-footer .App {
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+footer .copyright-footer {
+  padding-inline: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .copyright-footer .payment img {
+  margin-right: 10px;
 }/*# sourceMappingURL=index.css.map */
