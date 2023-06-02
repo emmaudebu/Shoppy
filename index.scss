@@ -921,10 +921,11 @@ border-radius: 4px;
   }
 }
 footer{
-  @include main-padding;
+ 
   background: #0a0a0a;
   color: #fff;
   .top-footer{
+     @include main-padding;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -964,5 +965,9 @@ footer{
 
       }
     }
+  }
+  .mid-footer{
+    @include main-padding;
+    display: flex;
   }
 }

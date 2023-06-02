@@ -1064,11 +1064,11 @@ swiper-container {
 }
 
 footer {
-  padding-inline: 100px;
   background: #0a0a0a;
   color: #fff;
 }
 footer .top-footer {
+  padding-inline: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1102,4 +1102,8 @@ footer .top-footer .reffer span {
 }
 footer .top-footer .reffer span:hover {
   cursor: pointer;
+}
+footer .mid-footer {
+  padding-inline: 100px;
+  display: flex;
 }/*# sourceMappingURL=index.css.map */
