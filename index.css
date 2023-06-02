@@ -667,12 +667,13 @@ swiper-container {
   padding-inline: 100px;
   margin-top: 180px;
   position: relative;
+  margin-bottom: 90px;
 }
 .Best-selling .best-title {
   width: 278px;
   height: 338px;
 }
-.Best-selling .best-title h1 {
+.Best-selling .best-title h3 {
   font-family: Poppins;
   font-size: 32px;
   font-weight: 700;
@@ -694,7 +695,10 @@ swiper-container {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.Best-selling .best-title button:hover {
   cursor: pointer;
+  scale: 1.1;
 }
 
 .Best-selling {
@@ -730,4 +734,8 @@ swiper-container {
 .product-slide img {
   height: 338px;
   border-radius: 8px;
+}
+
+.product p span:nth-child(2) {
+  color: green;
 }/*# sourceMappingURL=index.css.map */
