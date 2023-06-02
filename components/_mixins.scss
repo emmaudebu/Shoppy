@@ -12,6 +12,12 @@
   height: 44px;
   background-color: transparent;
   color: $shoppy-blue;
+  border: 1px gray solid;
+  border-radius: 8px;
+   &:hover {
+     cursor: pointer;
+     scale: 1.1;
+   }
 }
 
 @mixin Anyi-flex {

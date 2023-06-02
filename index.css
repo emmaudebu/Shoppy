@@ -1006,7 +1006,59 @@ swiper-container {
 }
 
 .saved-box {
-  margin-inline: 100px;
+  margin-inline: 120px;
   border: 1.05px solid #DEE2E7;
+  padding-top: 10px;
   padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 147px;
+}
+.saved-box .saved-products {
+  display: flex;
+  gap: 21px;
+  align-items: center;
+}
+.saved-box .saved-item .item-img {
+  height: 265px;
+  width: 284px;
+  border-radius: 7px;
+  background: #EEEEEE;
+  text-align: center;
+}
+.saved-box .saved-item .item-img img {
+  height: 214px;
+  width: 204px;
+  margin: 30px;
+}
+.saved-box .saved-item .item-img img:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+.saved-box .saved-item p {
+  font-family: Poppins;
+  font-size: 19px;
+  font-weight: 600;
+}
+.saved-box .saved-item .item-name {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: #606060;
+}
+.saved-box .saved-item button {
+  width: 172px;
+  height: 44px;
+  background-color: transparent;
+  color: #2283dc;
+  border: 1px gray solid;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+.saved-box .saved-item button:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+.saved-box .saved-item button .bx-cart {
+  height: 19px;
+  width: 19px;
 }/*# sourceMappingURL=index.css.map */
