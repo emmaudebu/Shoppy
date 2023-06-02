@@ -2,7 +2,11 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Poppins:wght@300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@500;700&display=swap");
+* {
+  transition: all 0.3s ease-in-out;
+}
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -324,6 +328,7 @@ li {
   src: url("./assets/fonts/GalanoGrotesqueAlt-Regular.ttf");
 }
 body {
+  font-family: "Inter", sans-serif;
   font-family: "Poppins", sans-serif;
   position: relative;
 }
@@ -738,4 +743,76 @@ swiper-container {
 
 .product p span:nth-child(2) {
   color: green;
+}
+
+.CTA {
+  padding-inline: 100px;
+  display: flex;
+  margin-block: 90px;
+  align-items: center;
+  height: 80px;
+}
+.CTA .cta-text {
+  background: #C1DCDC;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  width: 783px;
+  padding: 20px;
+}
+.CTA .cta-text span:nth-child(1) {
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 34px;
+}
+.CTA .cta-text span:nth-child(3) {
+  font-family: Inter;
+  font-size: 16px;
+  color: rgba(55, 53, 53, 0.8705882353);
+}
+.CTA .cta-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #02A0A0;
+  height: 80px;
+  width: 600px;
+  padding: 7px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.CTA .cta-btn button {
+  width: 127px;
+  height: 42px;
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+  border-radius: 8px;
+  margin-right: 30px;
+}
+.CTA .cta-btn button:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.New-arrival {
+  padding-inline: 100px;
+}
+.New-arrival .New-arrival-title h2 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+}
+.New-arrival .New-arrival-title span:nth-child(1) {
+  height: 40px;
+  width: 20px;
+  border-radius: 4px;
+  background: #02A0A0;
+  margin-right: 20px;
+}
+.New-arrival .New-arrival-title span:nth-child(2) {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  color: #02A0A0;
 }/*# sourceMappingURL=index.css.map */

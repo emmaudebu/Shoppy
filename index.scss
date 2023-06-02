@@ -5,7 +5,10 @@
 @import "./components/typography";
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Inter',
+  sans-serif;
+  font-family: 'Poppins',
+  sans-serif;
   position: relative;
 }
 
@@ -504,4 +507,86 @@ border-radius: 19px;
      
     }
   }
- 
+  .CTA{
+    @include main-padding;
+    display: flex;
+    margin-block: 90px;
+    align-items: center;
+    height: 80px;
+    
+
+    .cta-text{
+      background: #C1DCDC;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+          width: 783px;
+         padding: 20px;
+
+      span{
+        &:nth-child(1){
+          font-family: Inter;
+          font-size: 25px;
+          font-weight: 600;
+          line-height: 34px;
+        
+        }
+        &:nth-child(3){
+          font-family: Inter;
+          font-size: 16px;
+         color: #373535de;
+    
+        }
+      }
+    }
+  
+  .cta-btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    background: #02A0A0;
+    height: 80px;
+    width: 600px;
+    padding: 7px;
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+    button{
+      @include dark-btn;
+       &:hover {
+         cursor: pointer;
+         scale: 1.1;
+       }
+
+
+    }
+  }
+  
+  }
+ .New-arrival{
+  @include main-padding;
+  .New-arrival-title{
+    h2{
+      font-family: Inter;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 48px;
+
+    }
+    span{
+      &:nth-child(1){  
+        height: 40px;
+        width: 20px;
+        border-radius: 4px;
+        background: #02A0A0;
+        margin-right: 20px;
+      }
+      &:nth-child(2){
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+       color: #02A0A0;
+
+
+      }
+    }
+  }
+ }
