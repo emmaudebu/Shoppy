@@ -591,7 +591,7 @@ swiper-container {
 .New-arrival {
   @include main-padding;
   margin-bottom: 50px;
-   margin-inline: 20px;
+  margin-inline: 20px;
 
   .New-arrival-title {
     h2 {
@@ -624,7 +624,7 @@ swiper-container {
 }
 
 .new-arrival-box {
- 
+
   display: flex;
   // align-items: center;
   gap: 40px;
@@ -633,8 +633,9 @@ swiper-container {
     position: relative;
     height: 284px;
     width: 600px;
-border-radius: 4px;
+    border-radius: 4px;
     background: #0a0a0a;
+
     .img {
       margin-left: 120px;
       width: 432px;
@@ -693,6 +694,7 @@ border-radius: 4px;
     .ps-5 {
       margin-top: 70px;
 
+
     }
 
     .desc {
@@ -736,24 +738,34 @@ border-radius: 4px;
     }
   }
 
-.new-arrival-utilities{
-  margin-top:30px;
-  display: flex;
-  gap: 30px;
-  .new-arrival-perfume{
-    display :flex;
-    align-items: center;
-    justify-content: center;
+  .new-arrival-utilities {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+
+    .new-arrival-perfume {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
       img {
         height: 203px;
         width: 201px;
 
+        &:hover {
+          cursor: pointer;
+          scale: 1.1;
+
+        }
+
       }
-    position: relative;
-    height: 284px;
-    width: 300px;
-    border-radius: 4px;
-    background: #0a0a0a;
+
+      position: relative;
+      height: 284px;
+      width: 300px;
+      border-radius: 4px;
+      background: #0a0a0a;
+
       .details {
         position: absolute;
         color: #fff;
@@ -793,125 +805,134 @@ border-radius: 4px;
           }
         }
       }
-  
-  
-  
-  }
-  .new-arrival-speakers{
-    position: relative;
-    height: 284px;
-    width: 300px;
-    background: #0a0a0a;
-    border-radius: 4px;
-    display :flex ;
-    align-items: center;
-    justify-content: center;
 
-    img{
-     height: 203px;
-     width: 201px;
+
+
     }
-    
-     .details {
-       position: absolute;
-       color: #fff;
-       left: 0;
-       bottom: 0;
-       margin-bottom: 20px;
-       margin-left: 20px;
-       width: 242px;
 
-       p {
-         font-family: Inter;
-         font-size: 24px;
-         font-weight: 600;
-         line-height: 24px;
+    .new-arrival-speakers {
+      position: relative;
+      height: 284px;
+      width: 300px;
+      background: #0a0a0a;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
-       }
+      img {
+        height: 203px;
+        width: 201px;
+      }
 
-       span {
-         font-family: Poppins;
-         font-size: 14px;
-         font-weight: 400;
-         line-height: 21px;
+      .details {
+        position: absolute;
+        color: #fff;
+        left: 0;
+        bottom: 0;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        width: 242px;
 
-       }
+        p {
+          font-family: Inter;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 24px;
 
-       button {
+        }
 
-         background: none;
-         border: none;
-         color: #fff;
-         margin-top: 10px;
-         border-bottom: 1px solid rgb(203, 197, 197);
+        span {
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 21px;
 
-         &:hover {
-           cursor: pointer;
-           scale: 1.1;
-         }
-       }
-     }
+        }
+
+        button {
+
+          background: none;
+          border: none;
+          color: #fff;
+          margin-top: 10px;
+          border-bottom: 1px solid rgb(203, 197, 197);
+
+          &:hover {
+            cursor: pointer;
+            scale: 1.1;
+          }
+        }
+      }
     }
   }
 }
-.saved-box{
+
+.saved-box {
   margin-inline: 120px;
   border: 1.05px solid #DEE2E7;
-  padding-top:10px;
-  padding:20px;
+  padding-top: 10px;
+  padding: 20px;
   border-radius: 6px;
   margin-bottom: 147px;
-  .saved-products{
+
+  .saved-products {
     display: flex;
     gap: 21px;
     //  justify-content: center;
-     align-items: center;
-     
+    align-items: center;
+
   }
-  .saved-item{
-   
-    .item-img{
+
+  .saved-item {
+
+    .item-img {
       height: 265px;
       width: 284px;
       border-radius: 7px;
       background: #EEEEEE;
       text-align: center;
-    
-      img{
+
+      img {
         height: 214px;
         width: 204px;
         margin: 30px;
+
         &:hover {
           cursor: pointer;
           scale: 1.1;
-         
+
         }
-        
+
 
       }
 
 
     }
-    p{
+
+    p {
       font-family: Poppins;
       font-size: 19px;
       font-weight: 600;
-      
+
 
     }
+
     .item-name {
       font-family: Poppins;
       font-size: 16px;
       font-weight: 400;
-     color: #606060;
-     
+      color: #606060;
+
 
 
     }
-    button{
+
+    button {
       @include light-btn;
       margin-top: 5px;
-      .bx-cart{
+
+      .bx-cart {
         height: 19px;
         width: 19px;
 
@@ -920,54 +941,96 @@ border-radius: 4px;
 
   }
 }
-footer{
- 
-  background: #0a0a0a;
+
+footer {
+ background: #0a0a0a;
   color: #fff;
-  .top-footer{
-     @include main-padding;
+  padding-bottom: 20px;
+
+  .top-footer {
+    @include main-padding;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-block: 20px;
     border-bottom: 1px solid gray;
     margin-bottom: 20px;
-    .reffer{
+
+    .reffer {
       display: flex;
       gap: 20px;
       // justify-content: center;
       align-items: center;
-      img{
+
+      img {
         height: 46px;
         width: 69px;
-       
+
 
       }
-      p:nth-child(1){
+
+      p:nth-child(1) {
         font-size: 20px;
         font-weight: 500;
         line-height: 28px;
         margin-bottom: 5px;
       }
-      p:nth-child(2){
+
+      p:nth-child(2) {
         font-family: Poppins;
         font-size: 14px;
         // font-weight: 400;
 
       }
-      span{
+
+      span {
         font-family: Poppins;
         font-size: 13px;
         font-weight: 400;
-        &:hover{
+
+        &:hover {
           cursor: pointer;
         }
 
       }
     }
   }
-  .mid-footer{
+
+  .mid-footer {
     @include main-padding;
+     border-bottom: 1px solid gray;
+  
     display: flex;
+    gap: 30px;
+ 
+
+    ul {
+      width: 200%;
+
+      li {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 10px;
+      }
+
+      h3 {
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+
+      }
+    }
+
+    .App {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+
+    }
   }
 }

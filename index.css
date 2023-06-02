@@ -926,6 +926,10 @@ swiper-container {
   height: 203px;
   width: 201px;
 }
+.new-arrival-box .new-arrival-utilities .new-arrival-perfume img:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
 .new-arrival-box .new-arrival-utilities .new-arrival-perfume .details {
   position: absolute;
   color: #fff;
@@ -1066,6 +1070,7 @@ swiper-container {
 footer {
   background: #0a0a0a;
   color: #fff;
+  padding-bottom: 20px;
 }
 footer .top-footer {
   padding-inline: 100px;
@@ -1105,5 +1110,30 @@ footer .top-footer .reffer span:hover {
 }
 footer .mid-footer {
   padding-inline: 100px;
+  border-bottom: 1px solid gray;
   display: flex;
+  gap: 30px;
+}
+footer .mid-footer ul {
+  width: 200%;
+}
+footer .mid-footer ul li {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+footer .mid-footer ul h3 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+footer .mid-footer .App {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }/*# sourceMappingURL=index.css.map */
