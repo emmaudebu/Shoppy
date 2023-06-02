@@ -330,7 +330,6 @@ li {
 body {
   font-family: "Inter", sans-serif;
   font-family: "Poppins", sans-serif;
-  position: relative;
 }
 
 .top-nav {
@@ -796,6 +795,8 @@ swiper-container {
 
 .New-arrival {
   padding-inline: 100px;
+  margin-bottom: 50px;
+  margin-inline: 20px;
 }
 .New-arrival .New-arrival-title h2 {
   font-family: Inter;
@@ -815,4 +816,197 @@ swiper-container {
   font-size: 16px;
   font-weight: 600;
   color: #02A0A0;
+}
+
+.new-arrival-box {
+  display: flex;
+  gap: 40px;
+}
+.new-arrival-box .new-arrival-wc {
+  position: relative;
+  height: 284px;
+  width: 600px;
+  border-radius: 4px;
+  background: #0a0a0a;
+}
+.new-arrival-box .new-arrival-wc .img {
+  margin-left: 120px;
+  width: 432px;
+}
+.new-arrival-box .new-arrival-wc .desc {
+  position: absolute;
+  color: #fff;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 242px;
+}
+.new-arrival-box .new-arrival-wc .desc p {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.new-arrival-box .new-arrival-wc .desc span {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.new-arrival-box .new-arrival-wc .desc button {
+  background: none;
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+  border-bottom: 1px solid rgb(203, 197, 197);
+}
+.new-arrival-box .new-arrival-wc .desc button:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+.new-arrival-box .new-arrival-ps {
+  position: relative;
+  height: 600px;
+  width: 600px;
+  border-radius: 4px;
+  background: #1e1e1e;
+}
+.new-arrival-box .new-arrival-ps .ps-5 {
+  margin-top: 70px;
+}
+.new-arrival-box .new-arrival-ps .desc {
+  position: absolute;
+  color: #fff;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 242px;
+}
+.new-arrival-box .new-arrival-ps .desc p {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.new-arrival-box .new-arrival-ps .desc span {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.new-arrival-box .new-arrival-ps .desc button {
+  background: none;
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+  border-bottom: 1px solid rgb(203, 197, 197);
+}
+.new-arrival-box .new-arrival-ps .desc button:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+.new-arrival-box .new-arrival-utilities {
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+.new-arrival-box .new-arrival-utilities .new-arrival-perfume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 284px;
+  width: 300px;
+  border-radius: 4px;
+  background: #0a0a0a;
+}
+.new-arrival-box .new-arrival-utilities .new-arrival-perfume img {
+  height: 203px;
+  width: 201px;
+}
+.new-arrival-box .new-arrival-utilities .new-arrival-perfume .details {
+  position: absolute;
+  color: #fff;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 242px;
+}
+.new-arrival-box .new-arrival-utilities .new-arrival-perfume .details p {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.new-arrival-box .new-arrival-utilities .new-arrival-perfume .details span {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.new-arrival-box .new-arrival-utilities .new-arrival-perfume .details button {
+  background: none;
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+  border-bottom: 1px solid rgb(203, 197, 197);
+}
+.new-arrival-box .new-arrival-utilities .new-arrival-perfume .details button:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+.new-arrival-box .new-arrival-utilities .new-arrival-speakers {
+  position: relative;
+  height: 284px;
+  width: 300px;
+  background: #0a0a0a;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.new-arrival-box .new-arrival-utilities .new-arrival-speakers img {
+  height: 203px;
+  width: 201px;
+}
+.new-arrival-box .new-arrival-utilities .new-arrival-speakers .details {
+  position: absolute;
+  color: #fff;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 242px;
+}
+.new-arrival-box .new-arrival-utilities .new-arrival-speakers .details p {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.new-arrival-box .new-arrival-utilities .new-arrival-speakers .details span {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.new-arrival-box .new-arrival-utilities .new-arrival-speakers .details button {
+  background: none;
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+  border-bottom: 1px solid rgb(203, 197, 197);
+}
+.new-arrival-box .new-arrival-utilities .new-arrival-speakers .details button:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.saved-box {
+  margin-inline: 100px;
+  border: 1.05px solid #DEE2E7;
+  padding: 20px;
 }/*# sourceMappingURL=index.css.map */
