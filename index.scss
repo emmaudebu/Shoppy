@@ -884,6 +884,7 @@ border-radius: 4px;
         &:hover {
           cursor: pointer;
           scale: 1.1;
+         
         }
         
 
@@ -920,5 +921,48 @@ border-radius: 4px;
   }
 }
 footer{
+  @include main-padding;
   background: #0a0a0a;
+  color: #fff;
+  .top-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 20px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+    .reffer{
+      display: flex;
+      gap: 20px;
+      // justify-content: center;
+      align-items: center;
+      img{
+        height: 46px;
+        width: 69px;
+       
+
+      }
+      p:nth-child(1){
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        margin-bottom: 5px;
+      }
+      p:nth-child(2){
+        font-family: Poppins;
+        font-size: 14px;
+        // font-weight: 400;
+
+      }
+      span{
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        &:hover{
+          cursor: pointer;
+        }
+
+      }
+    }
+  }
 }

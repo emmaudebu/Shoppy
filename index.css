@@ -1064,5 +1064,42 @@ swiper-container {
 }
 
 footer {
+  padding-inline: 100px;
   background: #0a0a0a;
+  color: #fff;
+}
+footer .top-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 20px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 20px;
+}
+footer .top-footer .reffer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+footer .top-footer .reffer img {
+  height: 46px;
+  width: 69px;
+}
+footer .top-footer .reffer p:nth-child(1) {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 5px;
+}
+footer .top-footer .reffer p:nth-child(2) {
+  font-family: Poppins;
+  font-size: 14px;
+}
+footer .top-footer .reffer span {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+}
+footer .top-footer .reffer span:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
