@@ -26,15 +26,7 @@
   justify-content: center;
 }
 
-@mixin jd-flex-sb {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
-@mixin jd-container {
-  padding: 5px 6rem;
-}
 
 @mixin main-padding {
   padding-inline: 100px;

@@ -5,10 +5,10 @@
 @import "./components/typography";
 
 body {
-  font-family: 'Inter',
-    sans-serif;
   font-family: 'Poppins',
     sans-serif;
+    max-width: 1024px;
+    overflow-x: hidden;
 }
 
 .top-nav {
