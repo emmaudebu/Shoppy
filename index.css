@@ -1124,6 +1124,9 @@ footer .mid-footer ul li {
   line-height: 24px;
   margin-bottom: 10px;
 }
+footer .mid-footer ul li i {
+  margin-right: 10px;
+}
 footer .mid-footer ul h3 {
   font-family: Poppins;
   font-size: 20px;
