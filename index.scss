@@ -532,16 +532,19 @@ swiper-container {
 
 .CTA {
   @include main-padding;
+      border-radius: 8px;
+  
   display: flex;
   margin-block: 90px;
+  margin-inline: 90px;
   align-items: center;
-  height: 80px;
+  height: 90px;
+  background: linear-gradient(70deg, #c1dcdc 50%, #02a0a0 50%);
+  background-size: 130% 100%;
 
 
   .cta-text {
-    background: #C1DCDC;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
+    
     width: 783px;
     padding: 20px;
 
@@ -567,8 +570,8 @@ swiper-container {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background: #02A0A0;
-    height: 80px;
+  
+    height: 90px;
     width: 600px;
     padding: 7px;
     border-top-right-radius: 8px;
