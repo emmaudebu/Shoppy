@@ -550,10 +550,16 @@ swiper-container {
   margin-top: 180px;
   position: relative;
   margin-bottom: 90px;
-
+  @include respond(small) {
+    text-align: center;
+    margin-top: 20px;
+  }
   .best-title {
     width: 278px;
     height: 338px;
+     @include respond(small) {
+       width: 90vw;
+     }
 
     h3 {
       font-family: Poppins;
@@ -582,6 +588,12 @@ swiper-container {
       display: flex;
       align-items: center;
       gap: 10px;
+       @include respond(small) {
+         width: 80vw;
+         margin-inline: auto;
+         text-align: center;
+         justify-content: center;
+       }
 
       &:hover {
         cursor: pointer;

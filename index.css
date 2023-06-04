@@ -814,9 +814,20 @@ swiper-container {
     padding-inline: 10px;
   }
 }
+@media (max-width: 768px) {
+  .Best-selling {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
 .Best-selling .best-title {
   width: 278px;
   height: 338px;
+}
+@media (max-width: 768px) {
+  .Best-selling .best-title {
+    width: 90vw;
+  }
 }
 .Best-selling .best-title h3 {
   font-family: Poppins;
@@ -840,6 +851,14 @@ swiper-container {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+@media (max-width: 768px) {
+  .Best-selling .best-title button {
+    width: 80vw;
+    margin-inline: auto;
+    text-align: center;
+    justify-content: center;
+  }
 }
 .Best-selling .best-title button:hover {
   cursor: pointer;
