@@ -927,7 +927,6 @@ swiper-container {
   border-radius: 8px;
   display: flex;
   margin-block: 90px;
-  margin-inline: 90px;
   align-items: center;
   background: linear-gradient(70deg, #c1dcdc 50%, #02a0a0 50%);
   background-size: 130% 100%;
@@ -939,14 +938,20 @@ swiper-container {
 }
 @media (max-width: 768px) {
   .CTA {
-    width: 90%;
+    width: 90vw;
     display: flex;
-    margin-inline: 15px;
+    margin-inline: 10px;
   }
 }
 .CTA .cta-text {
   width: 783px;
   padding: 20px;
+}
+@media (max-width: 768px) {
+  .CTA .cta-text {
+    width: 60%;
+    padding: 5px;
+  }
 }
 .CTA .cta-text span:nth-child(1) {
   font-family: Inter;
@@ -954,10 +959,23 @@ swiper-container {
   font-weight: 600;
   line-height: 34px;
 }
+@media (max-width: 768px) {
+  .CTA .cta-text span:nth-child(1) {
+    width: 40%;
+    font-size: 18px;
+    line-height: 15px;
+  }
+}
 .CTA .cta-text span:nth-child(3) {
   font-family: Inter;
   font-size: 16px;
   color: rgba(55, 53, 53, 0.8705882353);
+}
+@media (max-width: 768px) {
+  .CTA .cta-text span:nth-child(3) {
+    font-size: 12px;
+    line-height: 10px;
+  }
 }
 .CTA .cta-btn {
   display: flex;
@@ -968,6 +986,12 @@ swiper-container {
   padding: 7px;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
+}
+@media (max-width: 768px) {
+  .CTA .cta-btn {
+    width: 40%;
+    margin-right: 5px;
+  }
 }
 .CTA .cta-btn button {
   width: 127px;
@@ -990,6 +1014,12 @@ swiper-container {
 @media (max-width: 768px) {
   .New-arrival {
     padding-inline: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .New-arrival {
+    margin-bottom: 50px;
+    margin-inline: 2px;
   }
 }
 .New-arrival .New-arrival-title h2 {
@@ -1016,6 +1046,12 @@ swiper-container {
   display: flex;
   gap: 40px;
 }
+@media (max-width: 768px) {
+  .new-arrival-box {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
 .new-arrival-box .new-arrival-wc {
   position: relative;
   height: 284px;
@@ -1023,9 +1059,23 @@ swiper-container {
   border-radius: 4px;
   background: #0a0a0a;
 }
+@media (max-width: 768px) {
+  .new-arrival-box .new-arrival-wc {
+    width: 90vw;
+    margin: 0px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+  }
+}
 .new-arrival-box .new-arrival-wc .img {
   margin-left: 120px;
   width: 432px;
+}
+@media (max-width: 768px) {
+  .new-arrival-box .new-arrival-wc .img {
+    margin-left: 90px;
+    width: 250px;
+  }
 }
 .new-arrival-box .new-arrival-wc .desc {
   position: absolute;
@@ -1066,6 +1116,11 @@ swiper-container {
   border-radius: 4px;
   background: #1e1e1e;
 }
+@media (max-width: 768px) {
+  .new-arrival-box .new-arrival-ps {
+    width: 90vw;
+  }
+}
 .new-arrival-box .new-arrival-ps .ps-5 {
   margin-top: 70px;
 }
@@ -1102,9 +1157,17 @@ swiper-container {
   scale: 1.1;
 }
 .new-arrival-box .new-arrival-utilities {
-  margin-top: 30px;
+  margin-top: 90px;
   display: flex;
   gap: 30px;
+}
+@media (max-width: 768px) {
+  .new-arrival-box .new-arrival-utilities {
+    width: 90vw;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 .new-arrival-box .new-arrival-utilities .new-arrival-perfume {
   display: flex;
@@ -1115,6 +1178,11 @@ swiper-container {
   width: 300px;
   border-radius: 4px;
   background: #0a0a0a;
+}
+@media (max-width: 768px) {
+  .new-arrival-box .new-arrival-utilities .new-arrival-perfume {
+    width: 90vw;
+  }
 }
 .new-arrival-box .new-arrival-utilities .new-arrival-perfume img {
   height: 203px;
@@ -1165,6 +1233,11 @@ swiper-container {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 768px) {
+  .new-arrival-box .new-arrival-utilities .new-arrival-speakers {
+    width: 90vw;
+  }
 }
 .new-arrival-box .new-arrival-utilities .new-arrival-speakers img {
   height: 203px;

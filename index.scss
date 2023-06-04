@@ -679,14 +679,13 @@ swiper-container {
   @include main-padding;
   border-radius: 8px;
  @include respond(small) {
-   width:90%;
+   width:90vw;
    display: flex;
-   margin-inline: 15px;
+   margin-inline: 10px;
 
  }
   display: flex;
   margin-block: 90px;
-  margin-inline: 90px;
   align-items: center;
 
   background: linear-gradient(70deg, #c1dcdc 50%, #02a0a0 50%);
@@ -697,6 +696,11 @@ swiper-container {
 
     width: 783px;
     padding: 20px;
+     @include respond(small) {
+       width: 60%;
+       padding: 5px;
+
+     }
 
     span {
       &:nth-child(1) {
@@ -705,12 +709,25 @@ swiper-container {
         font-weight: 600;
         line-height: 34px;
 
+        @include respond(small) {
+          width: 40%;
+          font-size: 18px;
+          line-height:15px;
+
+        }
+
       }
 
       &:nth-child(3) {
         font-family: Inter;
         font-size: 16px;
         color: #373535de;
+        @include respond(small) {
+        
+          font-size: 12px;
+          line-height: 10px;
+
+        }
 
       }
     }
@@ -721,6 +738,13 @@ swiper-container {
     justify-content: flex-end;
     align-items: center;
 
+     @include respond(small) {
+       width: 40%;
+       margin-right: 5px;
+       
+      
+
+     }
     height: 90px;
     width: 600px;
     padding: 7px;
@@ -745,6 +769,11 @@ swiper-container {
   @include main-padding;
   margin-bottom: 50px;
   margin-inline: 20px;
+  @include respond(small){
+     margin-bottom: 50px;
+     margin-inline: 2px;
+
+  }
 
   .New-arrival-title {
     h2 {
@@ -781,6 +810,10 @@ swiper-container {
   display: flex;
   // align-items: center;
   gap: 40px;
+  @include respond(small){
+    flex-direction: column;
+    gap: 10px;
+  }
 
   .new-arrival-wc {
     position: relative;
@@ -788,10 +821,23 @@ swiper-container {
     width: 600px;
     border-radius: 4px;
     background: #0a0a0a;
+    @include respond(small) {
+      width: 90vw;
+      margin: 0px;
+      margin-bottom: 50px;
+       
+       padding-bottom: 10px;
+    }
+
 
     .img {
       margin-left: 120px;
       width: 432px;
+ @include respond(small) {
+    margin-left: 90px;
+    width: 250px;
+
+ }
 
     }
 
@@ -843,6 +889,10 @@ swiper-container {
     width: 600px;
     border-radius: 4px;
     background: $shoppy-dark-btn;
+    @include respond (small){
+      width: 90vw;
+
+    }
 
     .ps-5 {
       margin-top: 70px;
@@ -892,14 +942,25 @@ swiper-container {
   }
 
   .new-arrival-utilities {
-    margin-top: 30px;
+    margin-top: 90px;
     display: flex;
     gap: 30px;
+    @include respond(small){
+      width: 90vw;
+      margin-top: 20px;
+      flex-direction: column;
+      gap: 10px;
+    }
 
     .new-arrival-perfume {
       display: flex;
       align-items: center;
       justify-content: center;
+
+      @include respond(small) {
+        width: 90vw;
+
+      }
 
       img {
         height: 203px;
@@ -972,6 +1033,11 @@ swiper-container {
       display: flex;
       align-items: center;
       justify-content: center;
+       @include respond(small) {
+         width: 90vw;
+
+       }
+
 
       img {
         height: 203px;
