@@ -409,6 +409,11 @@ swiper-container {
       display: flex;
       align-items: flex-end;
       padding-left: 20px;
+       @include respond(small) {
+         width:90vw;
+         margin: 10px;
+
+       }
 
       p {
         font-family: Poppins;
@@ -437,6 +442,11 @@ swiper-container {
     display: flex;
     align-items: flex-end;
     padding-left: 20px;
+     @include respond(small) {
+       width: 90vw;
+       margin: 10px;
+
+     }
 
     p {
       font-family: Poppins;
@@ -481,6 +491,11 @@ swiper-container {
       display: flex;
       align-items: flex-end;
       padding-left: 20px;
+       @include respond(small) {
+         width: 90vw;
+         margin: 10px;
+
+       }
 
       p {
         font-family: Poppins;
@@ -507,6 +522,11 @@ swiper-container {
       display: flex;
       align-items: flex-end;
       padding-left: 20px;
+       @include respond(small) {
+         width: 90vw;
+         margin: 10px;
+
+       }
 
       p {
         font-family: Poppins;
