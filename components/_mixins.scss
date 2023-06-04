@@ -30,4 +30,7 @@
 
 @mixin main-padding {
   padding-inline: 100px;
+  @include respond(small) {
+     padding-inline: 10px;
+  }
 }
