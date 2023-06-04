@@ -172,6 +172,7 @@ swiper-container {
    @include respond(small) {
      width: 100vw;
      margin: 0px;
+     padding: 0px;
     
    }
 }
