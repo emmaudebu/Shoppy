@@ -589,7 +589,6 @@ swiper-container {
 }
 @media (max-width: 768px) {
   .hero-text .apple span {
-    width: 200px;
     color: red;
   }
 }
@@ -610,6 +609,12 @@ swiper-container {
   color: white;
   background: none;
 }
+@media (max-width: 768px) {
+  .sam {
+    margin-left: 30px;
+  }
+}
+
 .partners {
   display: flex;
   align-items: center;
