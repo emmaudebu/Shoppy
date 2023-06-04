@@ -445,10 +445,6 @@ body {
   cursor: pointer;
 }
 
-swiper-slide img {
-  width: 100%;
-}
-
 swiper-slide {
   font-size: 18px;
   background: #fff;
@@ -469,7 +465,8 @@ swiper-container {
 }
 @media (max-width: 768px) {
   swiper-container {
-    width: 100%;
+    width: 100vw;
+    margin: 0px;
   }
 }
 
