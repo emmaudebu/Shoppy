@@ -809,7 +809,7 @@ swiper-container {
 
   display: flex;
   // align-items: center;
-  gap: 40px;
+  gap: 20px;
   @include respond(small){
     flex-direction: column;
     gap: 10px;
@@ -942,7 +942,7 @@ swiper-container {
   }
 
   .new-arrival-utilities {
-    margin-top: 90px;
+    margin-top: 20px;
     display: flex;
     gap: 30px;
     @include respond(small){

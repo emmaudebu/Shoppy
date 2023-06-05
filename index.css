@@ -1044,7 +1044,7 @@ swiper-container {
 
 .new-arrival-box {
   display: flex;
-  gap: 40px;
+  gap: 20px;
 }
 @media (max-width: 768px) {
   .new-arrival-box {
@@ -1157,7 +1157,7 @@ swiper-container {
   scale: 1.1;
 }
 .new-arrival-box .new-arrival-utilities {
-  margin-top: 90px;
+  margin-top: 20px;
   display: flex;
   gap: 30px;
 }
