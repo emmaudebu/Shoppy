@@ -413,6 +413,7 @@ swiper-container {
        @include respond(small) {
          width:90vw;
          margin: 10px;
+         
 
        }
 
@@ -771,7 +772,7 @@ swiper-container {
   margin-bottom: 50px;
   margin-inline: 20px;
   @include respond(small){
-     margin-bottom: 50px;
+     margin-bottom: 600px;
      margin-inline: 2px;
 
   }
@@ -825,7 +826,7 @@ swiper-container {
     @include respond(small) {
       width: 90vw;
       margin: 0px;
-      margin-bottom: 50px;
+      margin-bottom: 100px;
        
        padding-bottom: 10px;
     }
@@ -835,7 +836,7 @@ swiper-container {
       margin-left: 120px;
       width: 432px;
  @include respond(small) {
-    margin-left: 90px;
+    margin-left: 5px;
     width: 250px;
 
  }
@@ -948,7 +949,7 @@ swiper-container {
     gap: 30px;
     @include respond(small){
       width: 90vw;
-      margin-top: 20px;
+      margin-top: 150px;
       flex-direction: column;
       gap: 10px;
     }
@@ -1095,12 +1096,22 @@ swiper-container {
   padding: 20px;
   border-radius: 6px;
   margin-bottom: 147px;
+  @include respond(small){
+    width: 85vw;
+      margin-inline: 10px;
+
+  }
 
   .saved-products {
     display: flex;
     gap: 21px;
     //  justify-content: center;
     align-items: center;
+     @include respond(small) {
+       flex-direction: column;
+       gap: 15px;
+     }
+
 
   }
 
@@ -1166,6 +1177,11 @@ footer {
   background: #0a0a0a;
   color: #fff;
   padding-bottom: 20px;
+  @include respond(small) {
+    width: 100vw;
+    
+
+  }
 
   .top-footer {
     @include main-padding;
@@ -1175,6 +1191,11 @@ footer {
     padding-block: 20px;
     border-bottom: 1px solid gray;
     margin-bottom: 20px;
+     @include respond(small) {
+       flex-direction: column;
+
+
+     }
 
     .reffer {
       display: flex;
@@ -1222,6 +1243,10 @@ footer {
 
     display: flex;
     gap: 30px;
+     @include respond(small) {
+       display: none;
+
+     }
 
 
     ul {
