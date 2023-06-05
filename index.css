@@ -386,6 +386,11 @@ body {
   background: #F5F5F5;
   padding-right: 12px;
 }
+@media (max-width: 768px) {
+  .mid-nav .nav-input {
+    display: none;
+  }
+}
 .mid-nav .nav-input input {
   border: none;
   background: transparent;
@@ -419,6 +424,16 @@ body {
   align-items: center;
   gap: 40px;
 }
+@media (max-width: 768px) {
+  .Last-nav nav .menu {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .Last-nav nav .menu {
+    display: none;
+  }
+}
 .Last-nav nav .menu li {
   cursor: pointer;
 }
@@ -443,6 +458,11 @@ body {
 }
 .Last-nav nav .icons .bm {
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  .Last-nav nav .icons .bm {
+    display: none;
+  }
 }
 
 swiper-slide img {
