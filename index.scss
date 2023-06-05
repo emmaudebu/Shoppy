@@ -815,6 +815,9 @@ swiper-container {
   @include respond(small){
     flex-direction: column;
     gap: 10px;
+    width: 100%;
+    justify-content: stretch;
+  
   }
 
   .new-arrival-wc {
@@ -824,7 +827,7 @@ swiper-container {
     border-radius: 4px;
     background: #0a0a0a;
     @include respond(small) {
-      width: 90vw;
+      width: 100%;
       margin: 0px;
       margin-bottom: 100px;
        
@@ -892,7 +895,8 @@ swiper-container {
     border-radius: 4px;
     background: $shoppy-dark-btn;
     @include respond (small){
-      width: 90vw;
+     width: 100%;
+      margin: 0px;
 
     }
 
@@ -948,7 +952,7 @@ swiper-container {
     display: flex;
     gap: 30px;
     @include respond(small){
-      width: 90vw;
+      width: 100%;
       margin-top: 150px;
       flex-direction: column;
       gap: 10px;
@@ -960,7 +964,7 @@ swiper-container {
       justify-content: center;
 
       @include respond(small) {
-        width: 90vw;
+              width: 100%;
 
       }
 
@@ -1036,7 +1040,7 @@ swiper-container {
       align-items: center;
       justify-content: center;
        @include respond(small) {
-         width: 90vw;
+              width: 100%;
 
        }
 

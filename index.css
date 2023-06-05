@@ -1048,6 +1048,8 @@ swiper-container {
   .new-arrival-box {
     flex-direction: column;
     gap: 10px;
+    width: 100%;
+    justify-content: stretch;
   }
 }
 .new-arrival-box .new-arrival-wc {
@@ -1059,7 +1061,7 @@ swiper-container {
 }
 @media (max-width: 768px) {
   .new-arrival-box .new-arrival-wc {
-    width: 90vw;
+    width: 100%;
     margin: 0px;
     margin-bottom: 100px;
     padding-bottom: 10px;
@@ -1116,7 +1118,8 @@ swiper-container {
 }
 @media (max-width: 768px) {
   .new-arrival-box .new-arrival-ps {
-    width: 90vw;
+    width: 100%;
+    margin: 0px;
   }
 }
 .new-arrival-box .new-arrival-ps .ps-5 {
@@ -1161,7 +1164,7 @@ swiper-container {
 }
 @media (max-width: 768px) {
   .new-arrival-box .new-arrival-utilities {
-    width: 90vw;
+    width: 100%;
     margin-top: 150px;
     flex-direction: column;
     gap: 10px;
@@ -1179,7 +1182,7 @@ swiper-container {
 }
 @media (max-width: 768px) {
   .new-arrival-box .new-arrival-utilities .new-arrival-perfume {
-    width: 90vw;
+    width: 100%;
   }
 }
 .new-arrival-box .new-arrival-utilities .new-arrival-perfume img {
@@ -1234,7 +1237,7 @@ swiper-container {
 }
 @media (max-width: 768px) {
   .new-arrival-box .new-arrival-utilities .new-arrival-speakers {
-    width: 90vw;
+    width: 100%;
   }
 }
 .new-arrival-box .new-arrival-utilities .new-arrival-speakers img {
