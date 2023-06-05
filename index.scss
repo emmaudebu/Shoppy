@@ -152,7 +152,7 @@ body {
 // HERO SECTION  CSS WITH SWIPER CAROUSEL
 
 swiper-slide img {
-  // width: 100%;
+  width: 100%;
 }
 
 swiper-slide {
@@ -162,11 +162,12 @@ swiper-slide {
   display: flex;
   align-items: center;
   height: 478px;
+  
  
 }
 
 swiper-container {
-  @include main-padding;
+  // @include main-padding;
   width: 85%;
   height: 460px;
    @include respond(small) {
