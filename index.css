@@ -942,6 +942,7 @@ swiper-container {
 
 .CTA {
   padding-inline: 100px;
+  margin-inline: 100px;
   border-radius: 8px;
   display: flex;
   margin-block: 90px;
@@ -1411,9 +1412,20 @@ footer .top-footer .reffer p:nth-child(1) {
   line-height: 28px;
   margin-bottom: 5px;
 }
+@media (max-width: 768px) {
+  footer .top-footer .reffer p:nth-child(1) {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
 footer .top-footer .reffer p:nth-child(2) {
   font-family: Poppins;
-  font-size: 14px;
+}
+@media (max-width: 768px) {
+  footer .top-footer .reffer p:nth-child(2) {
+    font-size: 13px;
+    font-weight: 500;
+  }
 }
 footer .top-footer .reffer span {
   font-family: Poppins;
@@ -1474,6 +1486,13 @@ footer .copyright-footer {
 @media (max-width: 768px) {
   footer .copyright-footer {
     padding-inline: 10px;
+  }
+}
+@media (max-width: 768px) {
+  footer .copyright-footer {
+    font-size: 14px;
+    font-weight: 500;
+    flex-direction: column;
   }
 }
 footer .copyright-footer .payment img {

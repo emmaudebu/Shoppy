@@ -692,6 +692,7 @@ swiper-container {
 
 .CTA {
   @include main-padding;
+  margin-inline: 100px;
   border-radius: 8px;
  @include respond(small) {
    width:90vw;
@@ -1232,13 +1233,20 @@ footer {
         font-weight: 500;
         line-height: 28px;
         margin-bottom: 5px;
+        @include respond(small){
+          font-size: 14px;
+          font-weight: 500;
+
+        }
       }
 
       p:nth-child(2) {
         font-family: Poppins;
-        font-size: 14px;
-        // font-weight: 400;
+        @include respond(small){
+          font-size: 13px;
+          font-weight: 500;
 
+        }  
       }
 
       span {
@@ -1305,6 +1313,12 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @include respond(small){
+      font-size: 14px;
+      font-weight: 500;
+      flex-direction: column;
+
+    }
 
     .payment {
       img {
