@@ -1493,6 +1493,7 @@ footer .copyright-footer {
     font-size: 14px;
     font-weight: 500;
     flex-direction: column;
+    text-align: center;
   }
 }
 footer .copyright-footer .payment img {
