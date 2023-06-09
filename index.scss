@@ -624,6 +624,7 @@ swiper-container {
 .Best-selling {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
    @include respond(small) {
     flex-direction: column;
     padding-inline: 10px;
@@ -634,9 +635,9 @@ swiper-container {
     position: absolute;
     display: flex;
     justify-content: space-between;
-    gap: 900px;
+    gap: 820px;
     top: 150px;
-    left: 440px;
+    left: 370px;
      @include respond(small) {
        display: none;
        padding-inline: 10px;
@@ -662,11 +663,13 @@ swiper-container {
   }
 }
 
-.best-selling-slide {}
+.best-selling-slide {
+
+ 
 
 .product-slide {
   display: flex;
-  gap: 43px;
+  gap: 19px;
    @include respond(small) {
      flex-direction: column;
      padding-inline: 10px;
@@ -688,6 +691,7 @@ swiper-container {
     }
 
   }
+}
 }
 
 .CTA {
@@ -774,7 +778,6 @@ swiper-container {
         cursor: pointer;
         scale: 1.1;
       }
-
 
     }
   }
@@ -1110,19 +1113,23 @@ swiper-container {
 .saved-box {
   margin-inline: 120px;
   border: 1.05px solid #DEE2E7;
+ 
   padding-top: 10px;
   padding: 20px;
   border-radius: 6px;
   margin-bottom: 147px;
   @include respond(small){
     width: 85vw;
-      margin-inline: 10px;
+      margin: 20px;
+      padding: 10px;
+      text-align: center;
 
   }
 
   .saved-products {
     display: flex;
-    gap: 21px;
+    gap: 19px;
+   
     //  justify-content: center;
     align-items: center;
      @include respond(small) {
@@ -1137,7 +1144,7 @@ swiper-container {
 
     .item-img {
       height: 265px;
-      width: 284px;
+      width: 250px;
       border-radius: 7px;
       background: #EEEEEE;
       text-align: center;

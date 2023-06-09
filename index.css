@@ -886,6 +886,7 @@ swiper-container {
 .Best-selling {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 @media (max-width: 768px) {
   .Best-selling {
@@ -897,9 +898,9 @@ swiper-container {
   position: absolute;
   display: flex;
   justify-content: space-between;
-  gap: 900px;
+  gap: 820px;
   top: 150px;
-  left: 440px;
+  left: 370px;
 }
 @media (max-width: 768px) {
   .Best-selling .navbar {
@@ -921,22 +922,21 @@ swiper-container {
   scale: 1.1;
 }
 
-.product-slide {
+.best-selling-slide .product-slide {
   display: flex;
-  gap: 43px;
+  gap: 19px;
 }
 @media (max-width: 768px) {
-  .product-slide {
+  .best-selling-slide .product-slide {
     flex-direction: column;
     padding-inline: 10px;
   }
 }
-.product-slide img {
+.best-selling-slide .product-slide img {
   height: 338px;
   border-radius: 8px;
 }
-
-.product p span:nth-child(2) {
+.best-selling-slide .product p span:nth-child(2) {
   color: green;
 }
 
@@ -1309,12 +1309,14 @@ swiper-container {
 @media (max-width: 768px) {
   .saved-box {
     width: 85vw;
-    margin-inline: 10px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
   }
 }
 .saved-box .saved-products {
   display: flex;
-  gap: 21px;
+  gap: 19px;
   align-items: center;
 }
 @media (max-width: 768px) {
@@ -1325,7 +1327,7 @@ swiper-container {
 }
 .saved-box .saved-item .item-img {
   height: 265px;
-  width: 284px;
+  width: 250px;
   border-radius: 7px;
   background: #EEEEEE;
   text-align: center;
