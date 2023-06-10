@@ -426,6 +426,10 @@ body {
   .Last-nav nav .bx-menu {
     display: block;
   }
+  .Last-nav nav .bx-menu:hover {
+    scale: 1.1;
+    cursor: pointer;
+  }
 }
 .Last-nav nav .menu {
   display: flex;
@@ -443,6 +447,8 @@ body {
 }
 .Last-nav nav .menu li:hover {
   text-decoration: underline;
+  scale: 1.1;
+  cursor: pointer;
 }
 .Last-nav nav .icons {
   display: flex;
@@ -455,12 +461,24 @@ body {
   height: 25px;
   cursor: pointer;
 }
+.Last-nav nav .icons .user:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
 .Last-nav nav .icons .bx {
   width: 20px;
   height: 20px;
   cursor: pointer;
 }
+.Last-nav nav .icons .bx:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
 .Last-nav nav .icons .bm {
+  cursor: pointer;
+}
+.Last-nav nav .icons .bm:hover {
+  scale: 1.1;
   cursor: pointer;
 }
 @media (max-width: 768px) {
@@ -475,14 +493,19 @@ body {
   font-size: 18px;
   width: 300px;
   display: none;
-}
-@media (max-width: 768px) {
-  .mobile-menu {
-    display: block;
-  }
+  transition: display 3ms ease-in-out;
 }
 .mobile-menu ul li {
-  margin-top: 10px;
+  margin-top: 20px;
+}
+.mobile-menu ul li:hover {
+  text-decoration: underline;
+  color: red;
+  cursor: pointer;
+}
+
+.show {
+  display: block;
 }
 
 swiper-slide img {
