@@ -108,6 +108,17 @@ body {
     justify-content: space-between;
     align-items: center;
 
+   
+
+.bx-menu{
+  display: none;
+  font-size: 40px;
+  @include respond(small) {
+    display: block;
+
+  }
+}
+
     .menu {
       display: flex;
       justify-content: center;
@@ -115,10 +126,9 @@ body {
       gap: 40px;
        @include respond(small) {
          display: none;
+
        }
-        @include respond(small) {
-    display: none;
-  }
+ 
 
       // margin-right: 40px;
       li {
@@ -141,13 +151,14 @@ body {
         width: 25px;
         height: 25px;
         cursor: pointer;
-
+       
       }
 
       .bx {
         width: 20px;
         height: 20px;
         cursor: pointer;
+        
       }
 
       .bm {
@@ -160,6 +171,22 @@ body {
   }
 
 
+}
+.mobile-menu{
+  background:white;
+  color: #0a0a0a;
+  font-size: 18px;
+  width: 300px;
+  display: none;
+  @include respond(small){
+    display: block;
+  }
+
+  ul li{
+    margin-top: 10px;
+
+
+  }
 }
 
 // HERO SECTION  CSS WITH SWIPER CAROUSEL
