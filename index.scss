@@ -5,10 +5,8 @@
 @import "./components/typography";
 
 body {
-  font-family: 'Poppins',
-    sans-serif;
+  font-family: "Poppins", sans-serif;
   overflow-x: hidden;
-
 }
 
 .top-nav {
@@ -25,10 +23,8 @@ body {
   height: 2rem;
   align-items: center;
 
-
-
   :nth-child(2) {
-    margin-left: 1.0rem;
+    margin-left: 1rem;
     cursor: pointer;
     text-decoration: underline;
 
@@ -36,8 +32,6 @@ body {
       font-weight: bolder;
     }
   }
-
-
 }
 
 .mid-nav {
@@ -47,7 +41,6 @@ body {
   align-items: center;
   @include main-padding;
 
-
   border-bottom: 1px solid gray;
 
   .language {
@@ -56,14 +49,11 @@ body {
     outline: none;
     font-size: 14px;
     font-weight: 400;
-
   }
 
   h2 {
     font-family: Quella;
-
   }
-
 
   .nav-input {
     height: 38px;
@@ -71,13 +61,11 @@ body {
     border-radius: 5px;
     display: flex;
     align-items: center;
-    background: #F5F5F5;
+    background: #f5f5f5;
     padding-right: 12px;
-    @include respond(small){
-      display :none;
+    @include respond(small) {
+      display: none;
     }
-
-
 
     input {
       border: none;
@@ -85,9 +73,6 @@ body {
       width: 100%;
       outline: none;
       padding: 10px 12px;
-       
-
-
     }
 
     i {
@@ -95,7 +80,6 @@ body {
       height: 16px;
     }
   }
-
 }
 
 .Last-nav {
@@ -108,31 +92,26 @@ body {
     justify-content: space-between;
     align-items: center;
 
-   
-
-.bx-menu{
-  display: none;
-  font-size: 40px;
-  @include respond(small) {
-    display: block;
-    &:hover{
-      scale: 1.1;
-      cursor: pointer;
+    .bx-menu {
+      display: none;
+      font-size: 40px;
+      @include respond(small) {
+        display: block;
+        &:hover {
+          scale: 1.1;
+          cursor: pointer;
+        }
+      }
     }
-
-  }
-}
 
     .menu {
       display: flex;
       justify-content: center;
       align-items: center;
       gap: 40px;
-       @include respond(small) {
-         display: none;
-
-       }
- 
+      @include respond(small) {
+        display: none;
+      }
 
       // margin-right: 40px;
       li {
@@ -140,12 +119,9 @@ body {
 
         &:hover {
           text-decoration: underline;
-         
-            scale: 1.1;
-            cursor: pointer;
-          
-      
 
+          scale: 1.1;
+          cursor: pointer;
         }
       }
     }
@@ -160,64 +136,54 @@ body {
         width: 25px;
         height: 25px;
         cursor: pointer;
-        &:hover{
+        &:hover {
           scale: 1.1;
           cursor: pointer;
         }
-    
-       
       }
 
       .bx {
         width: 20px;
         height: 20px;
         cursor: pointer;
-        &:hover{
+        &:hover {
           scale: 1.1;
           cursor: pointer;
         }
-    
-        
       }
 
       .bm {
-        &:hover{
+        &:hover {
           scale: 1.1;
           cursor: pointer;
         }
-    
+
         cursor: pointer;
-         @include respond(small) {
-           display: none;
-         }
+        @include respond(small) {
+          display: none;
+        }
       }
     }
   }
-
-
 }
-.mobile-menu{
-  background:white;
+.mobile-menu {
+  background: white;
   color: #0a0a0a;
   font-size: 18px;
   width: 300px;
   display: none;
   transition: display 3ms ease-in-out;
- 
- 
 
-  ul li{
+  ul li {
     margin-top: 20px;
-    &:hover{
+    &:hover {
       text-decoration: underline;
       color: red;
       cursor: pointer;
     }
-
-
   }
 }
-.show{
+.show {
   display: block;
 }
 
@@ -228,54 +194,48 @@ swiper-slide img {
 }
 
 swiper-slide {
-
   font-size: 18px;
   background: #fff;
   display: flex;
   align-items: center;
   height: 478px;
-  
- 
 }
 
 swiper-container {
   // @include main-padding;
   width: 85%;
   height: 460px;
-   @include respond(small) {
-     width: 100vw;
-     margin: 0px;
-     padding: 0px;
-    
-   }
+  @include respond(small) {
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
 }
 
 .one {
   background-repeat: no-repeat;
   background-position: right;
   background-color: black;
-  color: #F5F5F5;
+  color: #f5f5f5;
 }
 
 .two {
-
   background-repeat: no-repeat;
   background-position: right;
   background-color: black;
-  color: #F5F5F5;
-
+  color: #f5f5f5;
 }
 
 .hero {
-
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 20rem;
   padding-left: 90px;
-  @include respond(small){
+  @include respond(small) {
     flex-direction: column-reverse;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     gap: 2px;
     padding: 10px;
@@ -292,17 +252,17 @@ swiper-container {
     width: 60%;
     height: 80%;
     @include respond(small) {
-     padding-top: 20px;
+      padding-top: 20px;
     }
-    img{
-      @include respond(small){
+    img {
+      @include respond(small) {
         width: 200px;
       }
-      .samsung{
-         @include respond(small) {
-           width: 300px;
-           height: 300px;
-         }
+      .samsung {
+        @include respond(small) {
+          width: 300px;
+          height: 300px;
+        }
       }
     }
   }
@@ -313,32 +273,29 @@ swiper-container {
     height: 250px;
     // margin: 20px;
     text-align: center;
-     
   }
 }
 
 .hero-text {
   width: 300px;
- 
+  overflow-x: hidden;
 
   img {
-
     width: 55px;
     height: 68px;
     justify-content: space-around;
     align-items: center;
     gap: 10px;
-    @include respond(small){
+    @include respond(small) {
       width: 40px;
       display: none;
     }
   }
 
   .apple {
-
     width: 400px;
     gap: 15px;
-     @include respond(small) {
+    @include respond(small) {
       //  display: flex;
       //  flex-direction: column;
       //  gap: 2px;
@@ -346,7 +303,7 @@ swiper-container {
       //  align-items: center;
       //  text-align: center;
       margin-bottom: 50px;
-     }
+    }
 
     div {
       display: flex;
@@ -359,13 +316,11 @@ swiper-container {
       font-size: 66px;
       font-weight: 600;
       line-height: 83px;
-       @include respond(small) {
-         font-size: 20px;
-         font-weight: 500;
-         line-height: normal;
-       }
-
-
+      @include respond(small) {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: normal;
+      }
     }
 
     span {
@@ -375,15 +330,8 @@ swiper-container {
       width: 100%;
       @include respond(small) {
         // width: 200px;
-        color:red;
+        color: red;
       }
-     
-      
-     
-
-
-
-
     }
   }
 }
@@ -392,7 +340,6 @@ swiper-container {
   display: flex;
   align-items: center;
   gap: 10px;
-   
 }
 
 .hero-btn {
@@ -404,18 +351,13 @@ swiper-container {
   border-bottom: 1px solid gray;
   color: white;
   background: none;
-   @include respond(small) {
-    
-   }
-
-
-
+  @include respond(small) {
+  }
 }
-.sam{
-  @include  respond(small){
+.sam {
+  @include respond(small) {
     margin-left: 30px;
   }
- 
 }
 
 //  END OF  HERO SECTION  CSS WITH SWIPER CAROUSEL
@@ -434,7 +376,7 @@ swiper-container {
   span {
     width: 198px;
     height: 112px;
-    background: #FDFFFE;
+    background: #fdfffe;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -442,15 +384,11 @@ swiper-container {
     cursor: pointer;
     box-shadow: 0px 35px 47px rgba(212, 217, 232, 0.2);
     border-radius: 19px;
-
-
   }
-
 }
 
 .explore {
   @include main-padding;
-
 
   .explore-title {
     display: flex;
@@ -469,7 +407,6 @@ swiper-container {
 
     @include respond(small) {
       flex-direction: column;
-
     }
 
     .explore-fashion {
@@ -482,12 +419,10 @@ swiper-container {
       display: flex;
       align-items: flex-end;
       padding-left: 20px;
-       @include respond(small) {
-         width:90vw;
-         margin: 10px;
-         
-
-       }
+      @include respond(small) {
+        width: 90vw;
+        margin: 10px;
+      }
 
       p {
         font-family: Poppins;
@@ -502,7 +437,6 @@ swiper-container {
           color: black;
         }
       }
-
     }
   }
 
@@ -516,11 +450,10 @@ swiper-container {
     display: flex;
     align-items: flex-end;
     padding-left: 20px;
-     @include respond(small) {
-       width: 90vw;
-       margin: 10px;
-
-     }
+    @include respond(small) {
+      width: 90vw;
+      margin: 10px;
+    }
 
     p {
       font-family: Poppins;
@@ -541,7 +474,6 @@ swiper-container {
 .explore-shop {
   @include main-padding;
 
-
   .explore-details {
     display: flex;
     align-items: center;
@@ -553,8 +485,6 @@ swiper-container {
       flex-direction: column;
     }
 
-
-
     .explore-shop {
       width: 818px;
       height: 427px;
@@ -565,11 +495,10 @@ swiper-container {
       display: flex;
       align-items: flex-end;
       padding-left: 20px;
-       @include respond(small) {
-         width: 90vw;
-         margin: 10px;
-
-       }
+      @include respond(small) {
+        width: 90vw;
+        margin: 10px;
+      }
 
       p {
         font-family: Poppins;
@@ -596,11 +525,10 @@ swiper-container {
       display: flex;
       align-items: flex-end;
       padding-left: 20px;
-       @include respond(small) {
-         width: 90vw;
-         margin: 10px;
-
-       }
+      @include respond(small) {
+        width: 90vw;
+        margin: 10px;
+      }
 
       p {
         font-family: Poppins;
@@ -631,17 +559,15 @@ swiper-container {
   .best-title {
     width: 278px;
     height: 338px;
-     @include respond(small) {
-       width: 90vw;
-     }
+    @include respond(small) {
+      width: 90vw;
+    }
 
     h3 {
       font-family: Poppins;
       font-size: 32px;
       font-weight: 700;
       line-height: 48px;
-
-
     }
 
     p {
@@ -649,8 +575,7 @@ swiper-container {
       font-size: 18px;
       font-weight: 500;
       line-height: 27px;
-      color: #1E1E1E80;
-
+      color: #1e1e1e80;
     }
 
     button {
@@ -658,25 +583,22 @@ swiper-container {
       border: none;
       border-radius: 8px;
       padding: 12px 20px;
-      background: #C1DCDC;
+      background: #c1dcdc;
       display: flex;
       align-items: center;
       gap: 10px;
-       @include respond(small) {
-         width: 80vw;
-         margin-inline: auto;
-         text-align: center;
-         justify-content: center;
-       }
+      @include respond(small) {
+        width: 80vw;
+        margin-inline: auto;
+        text-align: center;
+        justify-content: center;
+      }
 
       &:hover {
         cursor: pointer;
         scale: 1.1;
       }
-
-
     }
-
   }
 }
 
@@ -684,11 +606,10 @@ swiper-container {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-   @include respond(small) {
+  @include respond(small) {
     flex-direction: column;
     padding-inline: 10px;
-
-   }
+  }
 
   .navbar {
     position: absolute;
@@ -697,17 +618,16 @@ swiper-container {
     gap: 820px;
     top: 150px;
     left: 370px;
-     @include respond(small) {
-       display: none;
-       padding-inline: 10px;
-
-     }
+    @include respond(small) {
+      display: none;
+      padding-inline: 10px;
+    }
 
     span {
       height: 41px;
       width: 48px;
       border-radius: 3px;
-      background: #C1DCDC;
+      background: #c1dcdc;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -716,53 +636,45 @@ swiper-container {
         cursor: pointer;
         scale: 1.1;
       }
-
-
     }
   }
 }
 
 .best-selling-slide {
-
- 
-
-.product-slide {
-  display: flex;
-  gap: 19px;
-   @include respond(small) {
-     flex-direction: column;
-     padding-inline: 10px;
-
-   }
-
-  img {
-    height: 338px;
-    border-radius: 8px;
-  }
-}
-
-.product {
-  p {
-    span {
-      &:nth-child(2) {
-        color: green;
-      }
+  .product-slide {
+    display: flex;
+    gap: 19px;
+    @include respond(small) {
+      flex-direction: column;
+      padding-inline: 10px;
     }
 
+    img {
+      height: 338px;
+      border-radius: 8px;
+    }
   }
-}
+
+  .product {
+    p {
+      span {
+        &:nth-child(2) {
+          color: green;
+        }
+      }
+    }
+  }
 }
 
 .CTA {
   @include main-padding;
   margin-inline: 100px;
   border-radius: 8px;
- @include respond(small) {
-   width:90vw;
-   display: flex;
-   margin-inline: 10px;
-
- }
+  @include respond(small) {
+    width: 90vw;
+    display: flex;
+    margin-inline: 10px;
+  }
   display: flex;
   margin-block: 90px;
   align-items: center;
@@ -770,16 +682,13 @@ swiper-container {
   background: linear-gradient(70deg, #c1dcdc 50%, #02a0a0 50%);
   background-size: 130% 100%;
 
-
   .cta-text {
-
     width: 783px;
     padding: 20px;
-     @include respond(small) {
-       width: 60%;
-       padding: 5px;
-
-     }
+    @include respond(small) {
+      width: 60%;
+      padding: 5px;
+    }
 
     span {
       &:nth-child(1) {
@@ -791,10 +700,8 @@ swiper-container {
         @include respond(small) {
           width: 40%;
           font-size: 18px;
-          line-height:15px;
-
+          line-height: 15px;
         }
-
       }
 
       &:nth-child(3) {
@@ -802,12 +709,9 @@ swiper-container {
         font-size: 16px;
         color: #373535de;
         @include respond(small) {
-        
           font-size: 12px;
           line-height: 10px;
-
         }
-
       }
     }
   }
@@ -817,13 +721,10 @@ swiper-container {
     justify-content: flex-end;
     align-items: center;
 
-     @include respond(small) {
-       width: 40%;
-       margin-right: 5px;
-       
-      
-
-     }
+    @include respond(small) {
+      width: 40%;
+      margin-right: 5px;
+    }
     height: 90px;
     width: 600px;
     padding: 7px;
@@ -837,20 +738,17 @@ swiper-container {
         cursor: pointer;
         scale: 1.1;
       }
-
     }
   }
-
 }
 
 .New-arrival {
   @include main-padding;
   margin-bottom: 50px;
   margin-inline: 20px;
-  @include respond(small){
-     margin-bottom: 600px;
-     margin-inline: 2px;
-
+  @include respond(small) {
+    margin-bottom: 600px;
+    margin-inline: 2px;
   }
 
   .New-arrival-title {
@@ -859,7 +757,6 @@ swiper-container {
       font-size: 36px;
       font-weight: 600;
       line-height: 48px;
-
     }
 
     span {
@@ -867,7 +764,7 @@ swiper-container {
         height: 40px;
         width: 20px;
         border-radius: 4px;
-        background: #02A0A0;
+        background: #02a0a0;
         margin-right: 20px;
       }
 
@@ -875,25 +772,21 @@ swiper-container {
         font-family: Poppins;
         font-size: 16px;
         font-weight: 600;
-        color: #02A0A0;
-
-
+        color: #02a0a0;
       }
     }
   }
 }
 
 .new-arrival-box {
-
   display: flex;
   // align-items: center;
   gap: 20px;
-  @include respond(small){
+  @include respond(small) {
     flex-direction: column;
     gap: 10px;
     width: 100%;
     justify-content: stretch;
-  
   }
 
   .new-arrival-wc {
@@ -906,20 +799,17 @@ swiper-container {
       width: 100%;
       margin: 0px;
       margin-bottom: 100px;
-       
-       padding-bottom: 10px;
-    }
 
+      padding-bottom: 10px;
+    }
 
     .img {
       margin-left: 120px;
       width: 432px;
- @include respond(small) {
-    margin-left: 5px;
-    width: 250px;
-
- }
-
+      @include respond(small) {
+        margin-left: 5px;
+        width: 250px;
+      }
     }
 
     .desc {
@@ -936,7 +826,6 @@ swiper-container {
         font-size: 24px;
         font-weight: 600;
         line-height: 24px;
-
       }
 
       span {
@@ -944,11 +833,9 @@ swiper-container {
         font-size: 14px;
         font-weight: 400;
         line-height: 21px;
-
       }
 
       button {
-
         background: none;
         border: none;
         color: #fff;
@@ -961,7 +848,6 @@ swiper-container {
         }
       }
     }
-
   }
 
   .new-arrival-ps {
@@ -970,16 +856,13 @@ swiper-container {
     width: 600px;
     border-radius: 4px;
     background: $shoppy-dark-btn;
-    @include respond (small){
-     width: 100%;
+    @include respond(small) {
+      width: 100%;
       margin: 0px;
-
     }
 
     .ps-5 {
       margin-top: 70px;
-
-
     }
 
     .desc {
@@ -996,7 +879,6 @@ swiper-container {
         font-size: 24px;
         font-weight: 600;
         line-height: 24px;
-
       }
 
       span {
@@ -1004,11 +886,9 @@ swiper-container {
         font-size: 14px;
         font-weight: 400;
         line-height: 21px;
-
       }
 
       button {
-
         background: none;
         border: none;
         color: #fff;
@@ -1027,7 +907,7 @@ swiper-container {
     margin-top: 20px;
     display: flex;
     gap: 30px;
-    @include respond(small){
+    @include respond(small) {
       width: 100%;
       margin-top: 150px;
       flex-direction: column;
@@ -1040,8 +920,7 @@ swiper-container {
       justify-content: center;
 
       @include respond(small) {
-              width: 100%;
-
+        width: 100%;
       }
 
       img {
@@ -1051,9 +930,7 @@ swiper-container {
         &:hover {
           cursor: pointer;
           scale: 1.1;
-
         }
-
       }
 
       position: relative;
@@ -1076,7 +953,6 @@ swiper-container {
           font-size: 24px;
           font-weight: 600;
           line-height: 24px;
-
         }
 
         span {
@@ -1084,11 +960,9 @@ swiper-container {
           font-size: 14px;
           font-weight: 400;
           line-height: 21px;
-
         }
 
         button {
-
           background: none;
           border: none;
           color: #fff;
@@ -1101,9 +975,6 @@ swiper-container {
           }
         }
       }
-
-
-
     }
 
     .new-arrival-speakers {
@@ -1115,11 +986,9 @@ swiper-container {
       display: flex;
       align-items: center;
       justify-content: center;
-       @include respond(small) {
-              width: 100%;
-
-       }
-
+      @include respond(small) {
+        width: 100%;
+      }
 
       img {
         height: 203px;
@@ -1140,7 +1009,6 @@ swiper-container {
           font-size: 24px;
           font-weight: 600;
           line-height: 24px;
-
         }
 
         span {
@@ -1148,11 +1016,9 @@ swiper-container {
           font-size: 14px;
           font-weight: 400;
           line-height: 21px;
-
         }
 
         button {
-
           background: none;
           border: none;
           color: #fff;
@@ -1171,41 +1037,37 @@ swiper-container {
 
 .saved-box {
   margin-inline: 120px;
-  border: 1.05px solid #DEE2E7;
- 
+  border: 1.05px solid #dee2e7;
+
   padding-top: 10px;
   padding: 20px;
   border-radius: 6px;
   margin-bottom: 147px;
-  @include respond(small){
+  @include respond(small) {
     width: 85vw;
-      margin: 20px;
-      padding: 10px;
-      text-align: center;
-
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
   }
 
   .saved-products {
     display: flex;
     gap: 19px;
-   
+
     //  justify-content: center;
     align-items: center;
-     @include respond(small) {
-       flex-direction: column;
-       gap: 15px;
-     }
-
-
+    @include respond(small) {
+      flex-direction: column;
+      gap: 15px;
+    }
   }
 
   .saved-item {
-
     .item-img {
       height: 265px;
       width: 250px;
       border-radius: 7px;
-      background: #EEEEEE;
+      background: #eeeeee;
       text-align: center;
 
       img {
@@ -1216,21 +1078,14 @@ swiper-container {
         &:hover {
           cursor: pointer;
           scale: 1.1;
-
         }
-
-
       }
-
-
     }
 
     p {
       font-family: Poppins;
       font-size: 19px;
       font-weight: 600;
-
-
     }
 
     .item-name {
@@ -1238,9 +1093,6 @@ swiper-container {
       font-size: 16px;
       font-weight: 400;
       color: #606060;
-
-
-
     }
 
     button {
@@ -1250,10 +1102,8 @@ swiper-container {
       .bx-cart {
         height: 19px;
         width: 19px;
-
       }
     }
-
   }
 }
 
@@ -1263,8 +1113,6 @@ footer {
   padding-bottom: 20px;
   @include respond(small) {
     width: 100vw;
-    
-
   }
 
   .top-footer {
@@ -1275,11 +1123,9 @@ footer {
     padding-block: 20px;
     border-bottom: 1px solid gray;
     margin-bottom: 20px;
-     @include respond(small) {
-       flex-direction: column;
-
-
-     }
+    @include respond(small) {
+      flex-direction: column;
+    }
 
     .reffer {
       display: flex;
@@ -1290,8 +1136,6 @@ footer {
       img {
         height: 46px;
         width: 69px;
-
-
       }
 
       p:nth-child(1) {
@@ -1299,20 +1143,18 @@ footer {
         font-weight: 500;
         line-height: 28px;
         margin-bottom: 5px;
-        @include respond(small){
+        @include respond(small) {
           font-size: 14px;
           font-weight: 500;
-
         }
       }
 
       p:nth-child(2) {
         font-family: Poppins;
-        @include respond(small){
+        @include respond(small) {
           font-size: 13px;
           font-weight: 500;
-
-        }  
+        }
       }
 
       span {
@@ -1323,7 +1165,6 @@ footer {
         &:hover {
           cursor: pointer;
         }
-
       }
     }
   }
@@ -1334,11 +1175,9 @@ footer {
 
     display: flex;
     gap: 30px;
-     @include respond(small) {
-       display: none;
-
-     }
-
+    @include respond(small) {
+      display: none;
+    }
 
     ul {
       width: 200%;
@@ -1360,7 +1199,6 @@ footer {
         font-size: 20px;
         font-weight: 500;
         line-height: 28px;
-
       }
     }
 
@@ -1370,7 +1208,6 @@ footer {
       justify-content: center;
       align-items: center;
       gap: 10px;
-
     }
   }
 
@@ -1379,12 +1216,11 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    @include respond(small){
+    @include respond(small) {
       font-size: 14px;
       font-weight: 500;
       flex-direction: column;
       text-align: center;
-
     }
 
     .payment {

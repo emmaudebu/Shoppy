@@ -383,7 +383,7 @@ body {
   border-radius: 5px;
   display: flex;
   align-items: center;
-  background: #F5F5F5;
+  background: #f5f5f5;
   padding-right: 12px;
 }
 @media (max-width: 768px) {
@@ -529,6 +529,7 @@ swiper-container {
     width: 100vw;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
   }
 }
 
@@ -536,14 +537,14 @@ swiper-container {
   background-repeat: no-repeat;
   background-position: right;
   background-color: black;
-  color: #F5F5F5;
+  color: #f5f5f5;
 }
 
 .two {
   background-repeat: no-repeat;
   background-position: right;
   background-color: black;
-  color: #F5F5F5;
+  color: #f5f5f5;
 }
 
 .hero {
@@ -600,6 +601,7 @@ swiper-container {
 
 .hero-text {
   width: 300px;
+  overflow-x: hidden;
 }
 .hero-text img {
   width: 55px;
@@ -690,7 +692,7 @@ swiper-container {
 .partners span {
   width: 198px;
   height: 112px;
-  background: #FDFFFE;
+  background: #fdfffe;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -908,7 +910,7 @@ swiper-container {
   border: none;
   border-radius: 8px;
   padding: 12px 20px;
-  background: #C1DCDC;
+  background: #c1dcdc;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -955,7 +957,7 @@ swiper-container {
   height: 41px;
   width: 48px;
   border-radius: 3px;
-  background: #C1DCDC;
+  background: #c1dcdc;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1094,14 +1096,14 @@ swiper-container {
   height: 40px;
   width: 20px;
   border-radius: 4px;
-  background: #02A0A0;
+  background: #02a0a0;
   margin-right: 20px;
 }
 .New-arrival .New-arrival-title span:nth-child(2) {
   font-family: Poppins;
   font-size: 16px;
   font-weight: 600;
-  color: #02A0A0;
+  color: #02a0a0;
 }
 
 .new-arrival-box {
@@ -1343,7 +1345,7 @@ swiper-container {
 
 .saved-box {
   margin-inline: 120px;
-  border: 1.05px solid #DEE2E7;
+  border: 1.05px solid #dee2e7;
   padding-top: 10px;
   padding: 20px;
   border-radius: 6px;
@@ -1372,7 +1374,7 @@ swiper-container {
   height: 265px;
   width: 250px;
   border-radius: 7px;
-  background: #EEEEEE;
+  background: #eeeeee;
   text-align: center;
 }
 .saved-box .saved-item .item-img img {
