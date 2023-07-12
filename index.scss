@@ -278,8 +278,9 @@ swiper-container {
 
 .hero-text {
   width: 300px;
-  overflow-x: hidden;
-
+  @include respond(small) {
+    overflow-x: hidden;
+  }
   img {
     width: 55px;
     height: 68px;
@@ -548,6 +549,9 @@ swiper-container {
 }
 
 .Best-selling {
+  @include respond(medium) {
+    flex-direction: column;
+  }
   @include main-padding;
   margin-top: 180px;
   position: relative;
@@ -612,6 +616,9 @@ swiper-container {
   }
 
   .navbar {
+    @include respond(medium) {
+      display: none;
+    }
     position: absolute;
     display: flex;
     justify-content: space-between;
@@ -641,6 +648,9 @@ swiper-container {
 }
 
 .best-selling-slide {
+  @include respond(medium) {
+    flex-wrap: wrap;
+  }
   .product-slide {
     display: flex;
     gap: 19px;
@@ -1051,6 +1061,9 @@ swiper-container {
   }
 
   .saved-products {
+    @include respond(medium) {
+      flex-wrap: wrap;
+    }
     display: flex;
     gap: 19px;
 
@@ -1181,6 +1194,9 @@ footer {
 
     ul {
       width: 200%;
+      @include respond(medium) {
+        display: none;
+      }
 
       li {
         font-family: Poppins;
@@ -1203,6 +1219,9 @@ footer {
     }
 
     .App {
+      @include respond(medium) {
+        display: none;
+      }
       margin-top: 20px;
       display: flex;
       justify-content: center;
