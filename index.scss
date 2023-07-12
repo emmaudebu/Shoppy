@@ -364,6 +364,9 @@ swiper-container {
 //  END OF  HERO SECTION  CSS WITH SWIPER CAROUSEL
 
 .partners {
+  @include respond(medium) {
+    display: none;
+  }
   @include respond(small) {
     display: none;
   }
@@ -561,10 +564,20 @@ swiper-container {
     margin-top: 20px;
   }
   .best-title {
+    @include respond(medium) {
+      width: 100%;
+      padding-bottom: 0px;
+      height: 100%;
+    }
     width: 278px;
     height: 338px;
     @include respond(small) {
       width: 90vw;
+    }
+    .br {
+      @include respond(medium) {
+        display: none;
+      }
     }
 
     h3 {
