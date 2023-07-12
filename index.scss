@@ -191,6 +191,11 @@ body {
 
 swiper-slide img {
   width: 100%;
+  @include respond(medium) {
+    width: 400px;
+    height: 300px;
+    margin-right: 20px;
+  }
 }
 
 swiper-slide {
@@ -210,6 +215,10 @@ swiper-container {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+  }
+  @include respond(medium) {
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -240,6 +249,12 @@ swiper-container {
     gap: 2px;
     padding: 10px;
   }
+  @include respond(medium) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+  }
 }
 
 .three {
@@ -254,10 +269,12 @@ swiper-container {
     @include respond(small) {
       padding-top: 20px;
     }
+
     img {
       @include respond(small) {
         width: 200px;
       }
+
       .samsung {
         @include respond(small) {
           width: 300px;
@@ -274,12 +291,21 @@ swiper-container {
     // margin: 20px;
     text-align: center;
   }
+  @include respond(medium) {
+    width: 250px;
+    height: 250px;
+    margin-right: 10px;
+    text-align: center;
+  }
 }
 
 .hero-text {
   width: 300px;
   @include respond(small) {
     overflow-x: hidden;
+  }
+  @include respond(medium) {
+    width: 50%;
   }
   img {
     width: 55px;
@@ -321,6 +347,11 @@ swiper-container {
         font-size: 20px;
         font-weight: 500;
         line-height: normal;
+      }
+      @include respond(medium) {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 53px;
       }
     }
 
@@ -392,6 +423,9 @@ swiper-container {
 }
 
 .explore {
+  @include respond(medium) {
+    padding-inline: 20px;
+  }
   @include main-padding;
 
   .explore-title {
@@ -477,7 +511,9 @@ swiper-container {
 
 .explore-shop {
   @include main-padding;
-
+  @include respond(medium) {
+    padding-inline: 20px;
+  }
   .explore-details {
     display: flex;
     align-items: center;

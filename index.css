@@ -511,6 +511,13 @@ body {
 swiper-slide img {
   width: 100%;
 }
+@media (max-width: 991px) {
+  swiper-slide img {
+    width: 400px;
+    height: 300px;
+    margin-right: 20px;
+  }
+}
 
 swiper-slide {
   font-size: 18px;
@@ -530,6 +537,12 @@ swiper-container {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+  }
+}
+@media (max-width: 991px) {
+  swiper-container {
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -561,6 +574,14 @@ swiper-container {
     align-items: center;
     gap: 2px;
     padding: 10px;
+  }
+}
+@media (max-width: 991px) {
+  .hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
   }
 }
 
@@ -598,6 +619,14 @@ swiper-container {
     text-align: center;
   }
 }
+@media (max-width: 991px) {
+  .samsung {
+    width: 250px;
+    height: 250px;
+    margin-right: 10px;
+    text-align: center;
+  }
+}
 
 .hero-text {
   width: 300px;
@@ -605,6 +634,11 @@ swiper-container {
 @media (max-width: 768px) {
   .hero-text {
     overflow-x: hidden;
+  }
+}
+@media (max-width: 991px) {
+  .hero-text {
+    width: 50%;
   }
 }
 .hero-text img {
@@ -645,6 +679,13 @@ swiper-container {
     font-size: 20px;
     font-weight: 500;
     line-height: normal;
+  }
+}
+@media (max-width: 991px) {
+  .hero-text .apple h1 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 53px;
   }
 }
 .hero-text .apple span {
@@ -713,6 +754,11 @@ swiper-container {
 
 .explore {
   padding-inline: 100px;
+}
+@media (max-width: 991px) {
+  .explore {
+    padding-inline: 20px;
+  }
 }
 @media (max-width: 768px) {
   .explore {
@@ -802,6 +848,11 @@ swiper-container {
 @media (max-width: 768px) {
   .explore-shop {
     padding-inline: 10px;
+  }
+}
+@media (max-width: 991px) {
+  .explore-shop {
+    padding-inline: 20px;
   }
 }
 .explore-shop .explore-details {
