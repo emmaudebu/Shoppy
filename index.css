@@ -621,9 +621,9 @@ swiper-container {
 }
 @media (max-width: 991px) {
   .samsung {
-    width: 250px;
+    width: 200px;
     height: 250px;
-    margin-right: 10px;
+    margin-right: 5px;
     text-align: center;
   }
 }
@@ -1604,6 +1604,11 @@ footer .mid-footer ul li {
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 10px;
+}
+footer .mid-footer ul li:hover {
+  cursor: pointer;
+  background-color: #eeeeee;
+  color: black;
 }
 footer .mid-footer ul li i {
   margin-right: 10px;

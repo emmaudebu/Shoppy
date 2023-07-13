@@ -292,9 +292,9 @@ swiper-container {
     text-align: center;
   }
   @include respond(medium) {
-    width: 250px;
+    width: 200px;
     height: 250px;
-    margin-right: 10px;
+    margin-right: 5px;
     text-align: center;
   }
 }
@@ -1253,6 +1253,11 @@ footer {
         font-weight: 400;
         line-height: 24px;
         margin-bottom: 10px;
+        &:hover {
+          cursor: pointer;
+          background-color: #eeeeee;
+          color: black;
+        }
 
         i {
           margin-right: 10px;
